@@ -16,7 +16,9 @@ public class LambdaStream {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-
+        Basico basico = new Basico();
+        int [] arrInt = {9,3,9,3,9,7,9};
+        basico.ejercicioToptalOcurrencias(arrInt);
     }
     
 }

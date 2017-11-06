@@ -99,4 +99,12 @@ public class BasicoTest {
         assertEquals(Arrays.asList("y", "la", "API", "que", "una", "vez", "unos", "Érase", "Stream", "lambdas", "querían", "aprender", "desarrolladores"), resultado);
     }
     
+    @Test
+    public void testEjercicioToptalOcurrencias() {
+        System.out.println("testEjercicioToptalOcurrencias");
+        int [] arrInt = {9,3,9,3,9,7,9};
+        String resultado = ejercicios.ejercicioToptalOcurrencias(arrInt);
+        assertEquals("7", resultado);
+    }
+    
 }
